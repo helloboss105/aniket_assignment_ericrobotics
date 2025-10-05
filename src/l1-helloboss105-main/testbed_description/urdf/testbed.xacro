@@ -1,0 +1,290 @@
+<?xml version="1.0" ?>
+<robot name="testbed" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find testbed_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find testbed_description)/urdf/testbed.trans" />
+<xacro:include filename="$(find testbed_description)/urdf/testbed.gazebo" />
+
+
+<link name="base_footprint">
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.0 0.0 0.0" />
+    </geometry>
+  </visual>
+</link>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.03902827516985558 -0.03935683247854783 0.14566181971727507" rpy="0 0 0"/>
+    <mass value="2.054966479792099"/>
+    <inertia ixx="0.02657" iyy="0.023952" izz="0.040835" ixy="-0.000274" iyz="-2.2e-05" ixz="-0.001536"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_1">
+  <inertial>
+    <origin xyz="1.3459338430582557e-07 0.019833278425215595 3.494549472363162e-07" rpy="0 0 0"/>
+    <mass value="0.14772750404883436"/>
+    <inertia ixx="9.7e-05" iyy="0.000183" izz="9.7e-05" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.050476 -0.135241 -0.050004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.050476 -0.135241 -0.050004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_1">
+  <inertial>
+    <origin xyz="-4.0676331974909274e-07 1.5110754275626803e-07 -0.03786364523061746" rpy="0 0 0"/>
+    <mass value="1.1822860353009592"/>
+    <inertia ixx="0.000755" iyy="0.000755" izz="0.000353" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.175703 -0.108591 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.175703 -0.108591 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_2">
+  <inertial>
+    <origin xyz="-4.067633256332748e-07 1.511075468918488e-07 -0.037863645230617166" rpy="0 0 0"/>
+    <mass value="1.1822860353009592"/>
+    <inertia ixx="0.000755" iyy="0.000755" izz="0.000353" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.175703 0.184109 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.175703 0.184109 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_3">
+  <inertial>
+    <origin xyz="-4.0676332645206426e-07 1.5110753784353115e-07 -0.03786364523061741" rpy="0 0 0"/>
+    <mass value="1.1822860353009592"/>
+    <inertia ixx="0.000755" iyy="0.000755" izz="0.000353" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.074297 -0.108591 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.074297 -0.108591 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_4">
+  <inertial>
+    <origin xyz="-4.067633323501241e-07 1.5110754184033404e-07 -0.03786364523061713" rpy="0 0 0"/>
+    <mass value="1.1822860353009592"/>
+    <inertia ixx="0.000755" iyy="0.000755" izz="0.000353" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.074297 0.184109 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.074297 0.184109 -0.084004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/caster_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lidar_link_1">
+  <inertial>
+    <origin xyz="-0.04570340676333076 -0.21275884889245775 -0.06900465054505728" rpy="0 0 0"/>
+    <mass value="0.26337542011370024"/>
+    <inertia ixx="0.000153" iyy="0.000153" izz="0.000267" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.04 0.033 -0.226509" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/lidar_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.04 0.033 -0.226509" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/lidar_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="imu_link_1">
+  <inertial>
+    <origin xyz="-0.21570340676333022 -0.3447588488924569 -0.0820046505450562" rpy="0 0 0"/>
+    <mass value="0.008832000000000027"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1 -0.05 -0.1612" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/imu_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1 -0.05 -0.1612" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/imu_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="dummy_link_1">
+  <inertial>
+    <origin xyz="-0.21570340676332594 -0.08475884889245736 -0.08200465054505635" rpy="0 0 0"/>
+    <mass value="0.008832000000000027"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1 0.14 -0.1612" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/dummy_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1 0.14 -0.1612" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/dummy_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_1">
+  <inertial>
+    <origin xyz="-3.6837591231575484e-07 -0.01983297621012159 3.4945495788751835e-07" rpy="0 0 0"/>
+    <mass value="0.1477275040488344"/>
+    <inertia ixx="9.7e-05" iyy="0.000183" izz="9.7e-05" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.050503 0.210759 -0.050004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.050503 0.210759 -0.050004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find testbed_description)/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="fixed_base_joint" type="fixed">
+  <parent link="base_footprint" />
+  <child link="base_link" />
+  <origin xyz="0 0 0" rpy="0 0 0" />
+</joint>
+
+<joint name="left_wheel_joint" type="continuous">
+  <origin xyz="-0.050476 0.135241 0.050004" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_wheel_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="caster_joint_1" type="fixed">
+  <origin xyz="-0.175703 0.108591 0.084004" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="caster_1"/>
+</joint>
+
+<joint name="caster_joint_2" type="fixed">
+  <origin xyz="-0.175703 -0.184109 0.084004" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="caster_2"/>
+</joint>
+
+<joint name="caster_joint_3" type="fixed">
+  <origin xyz="0.074297 0.108591 0.084004" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="caster_3"/>
+</joint>
+
+<joint name="caster_joint_4" type="fixed">
+  <origin xyz="0.074297 -0.184109 0.084004" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="caster_4"/>
+</joint>
+
+<joint name="lidar_joint" type="fixed">
+  <origin xyz="-0.04 -0.04 0.228" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="lidar_link_1"/>
+</joint>
+
+<joint name="imu_joint" type="fixed">
+  <origin xyz="-0.1 0.05 0.163" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="imu_link_1"/>
+</joint>
+
+<joint name="dummy_joint" type="fixed">
+  <origin xyz="-0.1 -0.1315 0.163" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="dummy_link_1"/>
+</joint>
+
+<joint name="right_wheel_joint" type="continuous">
+  <origin xyz="-0.050503 -0.210759 0.050004" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_wheel_1"/>
+  <axis xyz="0.0 1.0 -0.0"/>
+</joint>
+
+</robot>

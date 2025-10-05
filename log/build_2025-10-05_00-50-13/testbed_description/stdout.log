@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hello-boss/assignment_ws/build/testbed_description
+-- Install configuration: ""
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_2.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/imu_link_1.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_4.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/left_wheel_1.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/dummy_link_1.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/right_wheel_1.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/lidar_link_1.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/base_link.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_1.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/meshes/caster_3.stl
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/urdf
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/urdf/testbed.xacro
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/urdf/testbed.trans
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/urdf/materials.xacro
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/urdf/testbed.gazebo
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/launch
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/launch/robot_description.launch.py
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/launch/testbed_rviz_barebones.launch.py
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/rviz
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/rviz/full_bringup.rviz
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/rviz/urdf_gazebo.rviz
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/rviz/testbed_rviz.rviz
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/rviz/testbed_barebones.rviz
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/rviz/urdf_vis_rviz
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/ament_index/resource_index/package_run_dependencies/testbed_description
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/ament_index/resource_index/parent_prefix_path/testbed_description
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/environment/ament_prefix_path.sh
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/environment/ament_prefix_path.dsv
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/environment/path.sh
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/environment/path.dsv
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/local_setup.bash
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/local_setup.sh
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/local_setup.zsh
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/local_setup.dsv
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.dsv
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/ament_index/resource_index/packages/testbed_description
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/cmake/testbed_descriptionConfig.cmake
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/cmake/testbed_descriptionConfig-version.cmake
+-- Installing: /home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.xml

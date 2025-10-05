@@ -1,0 +1,357 @@
+[0.132s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.132s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x734274f6eef0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x734275057e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x734275057e50>>, mixin_verb=('build',))
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.344s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hello-boss/assignment_ws'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_bringup) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/l1-helloboss105-main/testbed_bringup' with type 'ros.ament_cmake' and name 'testbed_bringup'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_description) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/l1-helloboss105-main/testbed_description' with type 'ros.ament_cmake' and name 'testbed_description'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_gazebo) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/l1-helloboss105-main/testbed_gazebo' with type 'ros.ament_cmake' and name 'testbed_gazebo'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/l1-helloboss105-main/testbed_navigation) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/l1-helloboss105-main/testbed_navigation' with type 'ros.ament_cmake' and name 'testbed_navigation'
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hello-boss/assignment_ws/install/testbed_navigation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hello-boss/assignment_ws/install/testbed_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hello-boss/assignment_ws/install/testbed_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hello-boss/assignment_ws/install/testbed_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.412s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hello-boss/assignment_ws/install/testbed_navigation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.412s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hello-boss/assignment_ws/install/testbed_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.412s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hello-boss/assignment_ws/install/testbed_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.412s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hello-boss/assignment_ws/install/testbed_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/hello-boss/assignment_ws/install
+[0.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/hello-boss/eyantra_ws/install
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/hello-boss/colcon_ws/install
+[0.417s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 466 installed packages in /opt/ros/humble
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hello-boss/assignment_ws/build/testbed_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hello-boss/assignment_ws/install/testbed_bringup', 'merge_install': False, 'path': '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hello-boss/assignment_ws/build/testbed_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hello-boss/assignment_ws/install/testbed_description', 'merge_install': False, 'path': '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_description', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hello-boss/assignment_ws/build/testbed_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hello-boss/assignment_ws/install/testbed_navigation', 'merge_install': False, 'path': '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hello-boss/assignment_ws/build/testbed_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hello-boss/assignment_ws/install/testbed_gazebo', 'merge_install': False, 'path': '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.484s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_description' with build type 'ament_cmake'
+[0.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_description'
+[0.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_bringup' with build type 'ament_cmake'
+[0.491s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_bringup'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_navigation' with build type 'ament_cmake'
+[0.496s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_navigation'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_description -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_description
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_bringup -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_bringup
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_navigation -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_navigation
+[1.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_bringup -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_bringup
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_bringup -- -j8 -l8
+[1.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_description -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_description
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_description -- -j8 -l8
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_bringup -- -j8 -l8
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_bringup
+[1.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_bringup)
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_bringup
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup' for CMake module files
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup' for CMake config files
+[1.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_bringup', 'cmake_prefix_path')
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/bin'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/lib/pkgconfig/testbed_bringup.pc'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/lib/python3.10/site-packages'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/bin'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.sh'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.bash'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.zsh'
+[1.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_bringup/share/colcon-core/packages/testbed_bringup)
+[1.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_bringup)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup' for CMake module files
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup' for CMake config files
+[1.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_bringup', 'cmake_prefix_path')
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.ps1'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.dsv'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.sh'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/bin'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/lib/pkgconfig/testbed_bringup.pc'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/lib/python3.10/site-packages'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_bringup/bin'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.sh'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.bash'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_bringup/share/testbed_bringup/package.zsh'
+[1.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_bringup/share/colcon-core/packages/testbed_bringup)
+[1.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_description -- -j8 -l8
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_description
+[1.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_description)
+[1.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_description
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description' for CMake module files
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description' for CMake config files
+[1.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_description', 'cmake_prefix_path')
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.dsv'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.sh'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/bin'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/lib/pkgconfig/testbed_description.pc'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/lib/python3.10/site-packages'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/bin'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.sh'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.bash'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.zsh'
+[1.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_description/share/colcon-core/packages/testbed_description)
+[1.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_description)
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description' for CMake module files
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description' for CMake config files
+[1.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_description', 'cmake_prefix_path')
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.sh'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/bin'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/lib/pkgconfig/testbed_description.pc'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/lib/python3.10/site-packages'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_description/bin'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.dsv'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.sh'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.bash'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_description/share/testbed_description/package.zsh'
+[1.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_description/share/colcon-core/packages/testbed_description)
+[1.203s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_gazebo' with build type 'ament_cmake'
+[1.203s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_gazebo'
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/hello-boss/assignment_ws/install/testbed_description:/home/hello-boss/assignment_ws/install/testbed_navigation:/home/hello-boss/assignment_ws/install/testbed_gazebo:/home/hello-boss/assignment_ws/install/testbed_bringup:/home/hello-boss/colcon_ws/install/ur_simulation_gz:/home/hello-boss/colcon_ws/install/ur_description:/home/hello-boss/colcon_ws/install/ur5_control:/home/hello-boss/colcon_ws/install/pymoveit2:/home/hello-boss/colcon_ws/install/eyantra_warehouse:/home/hello-boss/colcon_ws/install/ebot_description:/home/hello-boss/eyantra_ws/install/ur_simulation_gz:/home/hello-boss/eyantra_ws/install/ur_description:/home/hello-boss/eyantra_ws/install/ur5_control:/home/hello-boss/eyantra_ws/install/pymoveit2:/home/hello-boss/eyantra_ws/install/eyantra_warehouse:/home/hello-boss/eyantra_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_gazebo -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_gazebo
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_navigation -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_navigation
+[1.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_navigation -- -j8 -l8
+[1.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_navigation -- -j8 -l8
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_navigation
+[1.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_navigation)
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation' for CMake module files
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_navigation
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation' for CMake config files
+[1.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_navigation', 'cmake_prefix_path')
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.sh'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/bin'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/lib/pkgconfig/testbed_navigation.pc'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/lib/python3.10/site-packages'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/bin'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.ps1'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.sh'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.bash'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.zsh'
+[1.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_navigation/share/colcon-core/packages/testbed_navigation)
+[1.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_navigation)
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation' for CMake module files
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation' for CMake config files
+[1.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_navigation', 'cmake_prefix_path')
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.ps1'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.dsv'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.sh'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/bin'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/lib/pkgconfig/testbed_navigation.pc'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/lib/python3.10/site-packages'
+[1.775s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_navigation/bin'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.ps1'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.dsv'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.sh'
+[1.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.bash'
+[1.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_navigation/share/testbed_navigation/package.zsh'
+[1.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_navigation/share/colcon-core/packages/testbed_navigation)
+[1.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/hello-boss/assignment_ws/install/testbed_description:/home/hello-boss/assignment_ws/install/testbed_navigation:/home/hello-boss/assignment_ws/install/testbed_gazebo:/home/hello-boss/assignment_ws/install/testbed_bringup:/home/hello-boss/colcon_ws/install/ur_simulation_gz:/home/hello-boss/colcon_ws/install/ur_description:/home/hello-boss/colcon_ws/install/ur5_control:/home/hello-boss/colcon_ws/install/pymoveit2:/home/hello-boss/colcon_ws/install/eyantra_warehouse:/home/hello-boss/colcon_ws/install/ebot_description:/home/hello-boss/eyantra_ws/install/ur_simulation_gz:/home/hello-boss/eyantra_ws/install/ur_description:/home/hello-boss/eyantra_ws/install/ur5_control:/home/hello-boss/eyantra_ws/install/pymoveit2:/home/hello-boss/eyantra_ws/install/eyantra_warehouse:/home/hello-boss/eyantra_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake /home/hello-boss/assignment_ws/src/l1-helloboss105-main/testbed_gazebo -DCMAKE_INSTALL_PREFIX=/home/hello-boss/assignment_ws/install/testbed_gazebo
+[1.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/hello-boss/assignment_ws/install/testbed_description:/home/hello-boss/assignment_ws/install/testbed_navigation:/home/hello-boss/assignment_ws/install/testbed_gazebo:/home/hello-boss/assignment_ws/install/testbed_bringup:/home/hello-boss/colcon_ws/install/ur_simulation_gz:/home/hello-boss/colcon_ws/install/ur_description:/home/hello-boss/colcon_ws/install/ur5_control:/home/hello-boss/colcon_ws/install/pymoveit2:/home/hello-boss/colcon_ws/install/eyantra_warehouse:/home/hello-boss/colcon_ws/install/ebot_description:/home/hello-boss/eyantra_ws/install/ur_simulation_gz:/home/hello-boss/eyantra_ws/install/ur_description:/home/hello-boss/eyantra_ws/install/ur5_control:/home/hello-boss/eyantra_ws/install/pymoveit2:/home/hello-boss/eyantra_ws/install/eyantra_warehouse:/home/hello-boss/eyantra_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_gazebo -- -j8 -l8
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/hello-boss/assignment_ws/install/testbed_description:/home/hello-boss/assignment_ws/install/testbed_navigation:/home/hello-boss/assignment_ws/install/testbed_gazebo:/home/hello-boss/assignment_ws/install/testbed_bringup:/home/hello-boss/colcon_ws/install/ur_simulation_gz:/home/hello-boss/colcon_ws/install/ur_description:/home/hello-boss/colcon_ws/install/ur5_control:/home/hello-boss/colcon_ws/install/pymoveit2:/home/hello-boss/colcon_ws/install/eyantra_warehouse:/home/hello-boss/colcon_ws/install/ebot_description:/home/hello-boss/eyantra_ws/install/ur_simulation_gz:/home/hello-boss/eyantra_ws/install/ur_description:/home/hello-boss/eyantra_ws/install/ur5_control:/home/hello-boss/eyantra_ws/install/pymoveit2:/home/hello-boss/eyantra_ws/install/eyantra_warehouse:/home/hello-boss/eyantra_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --build /home/hello-boss/assignment_ws/build/testbed_gazebo -- -j8 -l8
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hello-boss/assignment_ws/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/hello-boss/assignment_ws/install/testbed_description:/home/hello-boss/assignment_ws/install/testbed_navigation:/home/hello-boss/assignment_ws/install/testbed_gazebo:/home/hello-boss/assignment_ws/install/testbed_bringup:/home/hello-boss/colcon_ws/install/ur_simulation_gz:/home/hello-boss/colcon_ws/install/ur_description:/home/hello-boss/colcon_ws/install/ur5_control:/home/hello-boss/colcon_ws/install/pymoveit2:/home/hello-boss/colcon_ws/install/eyantra_warehouse:/home/hello-boss/colcon_ws/install/ebot_description:/home/hello-boss/eyantra_ws/install/ur_simulation_gz:/home/hello-boss/eyantra_ws/install/ur_description:/home/hello-boss/eyantra_ws/install/ur5_control:/home/hello-boss/eyantra_ws/install/pymoveit2:/home/hello-boss/eyantra_ws/install/eyantra_warehouse:/home/hello-boss/eyantra_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_gazebo
+[1.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_gazebo)
+[1.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hello-boss/assignment_ws/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/hello-boss/assignment_ws/install/testbed_description:/home/hello-boss/assignment_ws/install/testbed_navigation:/home/hello-boss/assignment_ws/install/testbed_gazebo:/home/hello-boss/assignment_ws/install/testbed_bringup:/home/hello-boss/colcon_ws/install/ur_simulation_gz:/home/hello-boss/colcon_ws/install/ur_description:/home/hello-boss/colcon_ws/install/ur5_control:/home/hello-boss/colcon_ws/install/pymoveit2:/home/hello-boss/colcon_ws/install/eyantra_warehouse:/home/hello-boss/colcon_ws/install/ebot_description:/home/hello-boss/eyantra_ws/install/ur_simulation_gz:/home/hello-boss/eyantra_ws/install/ur_description:/home/hello-boss/eyantra_ws/install/ur5_control:/home/hello-boss/eyantra_ws/install/pymoveit2:/home/hello-boss/eyantra_ws/install/eyantra_warehouse:/home/hello-boss/eyantra_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --install /home/hello-boss/assignment_ws/build/testbed_gazebo
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo' for CMake module files
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo' for CMake config files
+[1.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_gazebo', 'cmake_prefix_path')
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.sh'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/bin'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/lib/pkgconfig/testbed_gazebo.pc'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/lib/python3.10/site-packages'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/bin'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.ps1'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.sh'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.bash'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.zsh'
+[1.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_gazebo/share/colcon-core/packages/testbed_gazebo)
+[1.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_gazebo)
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo' for CMake module files
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo' for CMake config files
+[1.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_gazebo', 'cmake_prefix_path')
+[1.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.ps1'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.dsv'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.sh'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/bin'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/lib/pkgconfig/testbed_gazebo.pc'
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/lib/python3.10/site-packages'
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/hello-boss/assignment_ws/install/testbed_gazebo/bin'
+[1.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.ps1'
+[1.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.dsv'
+[1.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.sh'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.bash'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/hello-boss/assignment_ws/install/testbed_gazebo/share/testbed_gazebo/package.zsh'
+[1.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hello-boss/assignment_ws/install/testbed_gazebo/share/colcon-core/packages/testbed_gazebo)
+[1.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.878s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.883s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.892s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.893s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-boss/assignment_ws/install/local_setup.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hello-boss/assignment_ws/install/_local_setup_util_ps1.py'
+[1.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-boss/assignment_ws/install/setup.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-boss/assignment_ws/install/local_setup.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hello-boss/assignment_ws/install/_local_setup_util_sh.py'
+[1.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-boss/assignment_ws/install/setup.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-boss/assignment_ws/install/local_setup.bash'
+[1.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-boss/assignment_ws/install/setup.bash'
+[1.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hello-boss/assignment_ws/install/local_setup.zsh'
+[1.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hello-boss/assignment_ws/install/setup.zsh'

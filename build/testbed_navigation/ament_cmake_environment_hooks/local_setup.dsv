@@ -1,0 +1,2 @@
+source;share/testbed_navigation/environment/ament_prefix_path.sh
+source;share/testbed_navigation/environment/path.sh
